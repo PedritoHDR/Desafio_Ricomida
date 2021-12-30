@@ -1,0 +1,147 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+/*Navbar*/
+
+.bg-menu{
+    background-color: #373A3C;
+}
+
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-size: 37px;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.nav-link{
+    font-family: 'Cabin', sans-serif;
+}
+
+/*Header*/
+
+#Pizza{
+    font-family: 'Cabin', sans-serif;
+}
+
+.foto-pizza{
+    width: 482px;
+    height: 384px;
+    
+}
+
+.desc-pizza{
+    font-size: 40px;
+    text-align: left;
+    color: #373A3C;
+
+}
+
+
+.foto-pizza, .desc-pizza{
+    display: inline-block;
+    vertical-align: middle;
+
+} 
+
+.desc-pizza h5{
+    font-size: 20px;
+    color: #373A3C;
+    
+}
+
+@media (max-width:768px){
+    .foto-pizza{
+        width: 246px;
+        height: 196px;
+
+    }
+
+    .desc-pizza{
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        color: #373A3C;
+    }
+
+    .desc-pizza h5{
+        font-size: 16px;
+        color: #373A3C;
+        text-align: center;
+        
+    }
+    
+}
+
+.carousel-item img{
+    width: 233px;
+    height: 170px;
+    margin: 0 1%;
+
+}
+
+/*Receta*/
+
+.receta{
+    font-size: 20px;
+}
+
+/*RECETAS RELACIONADAS*/
+
+#RECETAS-RELACIONADAS .image-top{
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.card-title{
+    font-size: 23px;
+}
+
+.card-text{
+    font-size: 16px;
+}
+
+/*SUSCRÍBETE*/
+
+#SUSCRÍBETE{
+    background-color: #DC3545;
+    vertical-align: middle;
+
+}
+
+#SUSCRÍBETE h4{
+    font-size: 40px;
+}
+
+#SUSCRÍBETE p{
+    font-size: 30px;
+}
+
+#SUSCRÍBETE .Ricomida{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+#SUSCRÍBETE .btn{
+    width: 233px;
+    height: 40px;
+    font-size: 16px;
+}
+
+/*footer*/
+
+footer{
+    background-color: #373A3C;
+    font-family: 'Lobster', cursive;
+}
+
+footer h4{
+    font-size: 37px;
+}
